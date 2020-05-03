@@ -5,6 +5,7 @@ dotenv.load_dotenv()
 
 #Local Connection
 PORT = os.getenv("PORT")
+DBURL = os.getenv("DBURL")
 
 #API Documentation
 help = "https://github.com/diego-florez/Api-Project-Sentiment-Analysis"
