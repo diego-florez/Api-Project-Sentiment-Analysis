@@ -6,4 +6,3 @@ pandas
 sklearn
 nltk
 requests
-nltk.downloader punkt
