@@ -5,12 +5,12 @@ dotenv.load_dotenv()
 
 #Local Connection
 PORT = os.getenv("PORT")
-DBURL = os.getenv("DBURL")
+MGURL = os.getenv("MGURL")
 
 #API Documentation
 help = "https://github.com/diego-florez/Api-Project-Sentiment-Analysis"
 
 #MongoDB
-id = os.getenv("id")
-myclient = MongoClient(f"mongodb://localhost:{id}/")
+MGURL = os.getenv("MGURL")
+myclient = MongoClient(f"{MGURL}")
 db = myclient["chat"]
