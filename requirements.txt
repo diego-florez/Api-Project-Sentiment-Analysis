@@ -5,3 +5,4 @@ dnspython
 pandas
 sklearn
 nltk
+requests
