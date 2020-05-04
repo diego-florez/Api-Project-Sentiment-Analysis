@@ -5,6 +5,7 @@ import nltk
 from nltk import word_tokenize          
 from nltk.stem import WordNetLemmatizer
 nltk.download('punkt')
+nltk.download('wordnet')
 
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 nltk.download("vader_lexicon")
