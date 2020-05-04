@@ -4,6 +4,7 @@ import nltk
 #nltk.download('stopwords')
 from nltk import word_tokenize          
 from nltk.stem import WordNetLemmatizer
+nltk.download('punkt')
 
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 nltk.download("vader_lexicon")
