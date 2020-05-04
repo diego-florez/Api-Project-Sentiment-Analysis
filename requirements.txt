@@ -6,4 +6,4 @@ pandas
 sklearn
 nltk
 requests
-nltk.download('punkt')
+nltk.downloader punkt
