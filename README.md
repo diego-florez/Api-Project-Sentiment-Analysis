@@ -1,7 +1,7 @@
 # Api-Project-Sentiment-Analysis
 
 # 1 Intro:
-In this repository you will find a project about NLP, MongoDB and how to deploy an App in Heroku using Docker. In this case, we will create and app, where you can add users, chats and text. Also you can find the 6 Simpson and South Park chars that are more similar to you, based in the text you introduce and you can get the sentiment of any text. Finally the app will be deployed in Heroku.
+In this repository you will find a project about NLP, MongoDB and how to deploy an App in Heroku using Docker. In this case, we will create and app, where you can add users, chats and text. Also you can find the 6 Simpson and South Park charts that are more similar to you, based in the text you introduce and you can get the sentiment of any text. Finally the app will be deployed in Heroku.
 
 # 2 Goals:
 The main goal of this project is to create an app which allows you to add users, chats and comments, and also recommend users and get their sentiment. Also, the second goal is to deploy it in Heroku.
@@ -25,7 +25,7 @@ The final output is an Heroku app, where you can add user, chats and comments. A
 
 # How does it work?
 1. Go to --> http://cartoon-api.herokuapp.com/
-2. Add users, chats and comments with the command --> /user/{name}/{chat_name}/{text}/create
-3. Get recommendations of new friends based in the text you added --> /user/{name}/{chat_name}/recommend
-4. Now create another chat with the users you like --> /user/{name}/{chat_name}/{text}/create
-5. You can also get the sentiment of any text --> /user/{phrase}/get_sentiment
+2. Add users, chats and comments with the command --> user/{name}/{chat_name}/{text}/create
+3. Get recommendations of new friends based in the text you added --> user/{name}/{chat_name}/recommend
+4. Now create another chat with the users you like --> user/{name}/{chat_name}/{text}/create
+5. You can also get the sentiment of any text --> user/{phrase}/get_sentiment
