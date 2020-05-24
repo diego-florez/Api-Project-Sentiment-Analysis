@@ -24,8 +24,8 @@ The final output is an Heroku app, where you can add user, chats and comments. A
 - We use Docker to deploy the app in Heroku
 
 # How does it work?
-1. Go to --> http://cartoon-api.herokuapp.com/
-2. Add users, chats and comments with the command --> user/{name}/{chat_name}/{text}/create
-3. Get recommendations of new friends based in the text you added --> user/{name}/{chat_name}/recommend
-4. Now create another chat with the users you like --> user/{name}/{chat_name}/{text}/create
-5. You can also get the sentiment of any text --> user/{phrase}/get_sentiment
+1. Go to --> http://cartoon-api.herokuapp.com
+2. Add users, chats and comments with the command --> /user/{name}/{chat_name}/{text}/create
+3. Get recommendations of new friends based in the text you added --> /user/{name}/{chat_name}/recommend
+4. Now create another chat with the users you like --> /user/{name}/{chat_name}/{text}/create
+5. You can also get the sentiment of any text --> /user/{phrase}/get_sentiment
