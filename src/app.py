@@ -10,7 +10,7 @@ app = Flask(__name__)
 @app.route("/")
 def baseResponse():
     return {
-        "Hi! Welcome to the cartoon App": f"We will be guiding you through the whole process. 1st use the following command to add your user and create a chat: /user/add. However, if you have any doubts during the procress, you can find all the info of how to use it here --> {help} "
+        "Hi! Welcome to the cartoon App": f"We will be guiding you through the whole process. 1st use the following command to add your user and create a chat: /user/<name>/<chat_name>/<text>/create. However, if you have any doubts during the procress, you can find all the info of how to use it here --> {help} "
         }
 
 #I'll let it commented as for web is easilly to work with "get"
